@@ -113,7 +113,7 @@ data = {
 df = pd.DataFrame(data)
 
 save_sample_to_html(df, n=2, output_path="sampled_data.html")
-
+#Using HTML path
 HTML("file:///E:/Nihal_Rasuri/KTPL/Training/sampled_data.html").write_pdf("weasyprint.pdf")
 print("saved pdf at location")
 
